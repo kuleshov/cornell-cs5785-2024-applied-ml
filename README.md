@@ -1,6 +1,6 @@
-# Applied Machine Learning (Cornell CS5785, Fall 2021)
+# Applied Machine Learning (Cornell CS5785, Fall 2022)
 
-This repo contains executable course notes and slides for the Applied ML course at Cornell and Cornell Tech (Fall 2021 edition).
+This repo contains executable course notes and slides for the Applied ML course at Cornell and Cornell Tech (Fall 2022 edition).
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=vcE9WGbi4QY
 " target="_blank"><img src="http://img.youtube.com/vi/vcE9WGbi4QY/2.jpg"
