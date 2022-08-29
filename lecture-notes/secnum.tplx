@@ -1,0 +1,6 @@
+((* extends 'article.tplx' *))
+
+((* block commands *))
+\setcounter{secnumdepth}{0} % Turns off numbering for sections
+((( super() )))
+((* endblock commands *))
