@@ -4,3 +4,11 @@
 \setcounter{secnumdepth}{0} % Turns off numbering for sections
 ((( super() )))
 ((* endblock commands *))
+
+((* block author *))
+\author{Volodymyr Kuleshov}
+((* endblock author *))
+
+((* block date *))
+\date{}
+((* endblock date *))
