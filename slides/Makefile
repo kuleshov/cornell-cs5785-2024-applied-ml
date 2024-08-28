@@ -7,7 +7,7 @@ PDFS:=$(subst ipynb,pdf,$(NOTEBOOKS))
 
 $(SLIDES): %.slides.html: %.ipynb
 	jupyter nbconvert $< --to slides
-	sed 's/\(Reveal\.initialize({\)/\1width: 1600,height: 900,/' $@ > t.html
+	sed 's/\(Reveal\.initialize({\)/\1width: 1400,height: 788,/' $@ > t.html
 	mv t.html $@ # sed -i doesn't seem to work on my OSX version, doing this move instead
 
 
