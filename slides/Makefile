@@ -34,7 +34,7 @@ spellchecks:
 	make $(SPELLCHECKS)
 
 clean:
-	rm -rf *.html *.pdf *spellcheck.txt *_files img
+	rm -rf *.html *.pdf *spellcheck.txt *_files
 
 all:
 	make notes slides pdfs
