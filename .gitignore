@@ -131,3 +131,6 @@ dmypy.json
 .DS_Store
 *.pdf
 *.html
+*.spellcheck.txt
+*.rst
+*_files

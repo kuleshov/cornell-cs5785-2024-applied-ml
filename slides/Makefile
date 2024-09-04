@@ -12,10 +12,16 @@ $(SLIDES): %.slides.html: %.ipynb
 
 
 $(HTML): %.html: %.ipynb
-	jupyter nbconvert $< --to html_embed --reveal-prefix "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0"
+	jupyter nbconvert $< --to html_embed
 
 $(PDFS): %.pdf: %.ipynb
-	jupyter nbconvert $< --to pdf --reveal-prefix "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0"
+	jupyter nbconvert $< --to pdf
+
+%.rst: %.ipynb
+	jupyter nbconvert $< --to rst
+
+%.spellcheck.txt: %.rst
+	aspell --mode=tex list < $< > $@
 
 notes:
 	make $(HTML)
