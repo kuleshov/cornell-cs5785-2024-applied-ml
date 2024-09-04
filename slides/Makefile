@@ -4,6 +4,7 @@ NOTEBOOKS:=$(wildcard *.ipynb)
 SLIDES:=$(subst ipynb,slides.html,$(NOTEBOOKS))
 HTML:=$(subst ipynb,html,$(NOTEBOOKS))
 PDFS:=$(subst ipynb,pdf,$(NOTEBOOKS))
+SPELLCHECKS:=$(subst ipynb,spellcheck.txt,$(NOTEBOOKS))
 
 $(SLIDES): %.slides.html: %.ipynb
 	jupyter nbconvert $< --to slides
@@ -28,6 +29,9 @@ slides:
 
 pdfs:
 	make $(PDFS)
+
+spellchecks:
+	make $(SPELLCHECKS)
 
 clean:
 	rm *.html *.pdf
