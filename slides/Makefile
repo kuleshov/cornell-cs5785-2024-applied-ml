@@ -17,11 +17,8 @@ $(HTML): %.html: %.ipynb
 $(PDFS): %.pdf: %.ipynb
 	jupyter nbconvert $< --to pdf
 
-%.rst: %.ipynb
-	jupyter nbconvert $< --to rst
-
-%.spellcheck.txt: %.rst
-	aspell --mode=tex list < $< > $@
+%.spellcheck.txt: %.ipynb
+	./extract-markdown.py $< | aspell --mode=tex list > $@
 
 notes:
 	make $(HTML)
