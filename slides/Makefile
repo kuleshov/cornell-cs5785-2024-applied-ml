@@ -33,6 +33,9 @@ pdfs:
 spellchecks:
 	make $(SPELLCHECKS)
 
+all-spellchecks.txt: spellchecks
+	tail -n 10000 $(SPELLCHECKS) > $@
+
 clean:
 	rm -rf *.html *.pdf *spellcheck.txt *_files
 
