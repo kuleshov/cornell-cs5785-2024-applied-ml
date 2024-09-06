@@ -7,7 +7,9 @@ channels:
 dependencies:
   - ipython=8.*
   - jupyterlab=4.2.*
+  - jupyter_contrib_nbextensions=0.7.*
   - matplotlib=3.9.*
+  - pandoc=3.*
   - pip
   - python=3.*
   - pytorch=2.4.*
