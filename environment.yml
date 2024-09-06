@@ -1,0 +1,19 @@
+name: course-cornell-cs5785
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - ipython=8.*
+  - jupyterlab=4.2.*
+  - matplotlib=3.9.*
+  - pip
+  - python=3.*
+  - pytorch=2.4.*
+  - pyyaml=6.*
+  - scipy=1.14.*
+  - torchdiffeq=0.2.*
+  - torchvision=0.19.*
+  - tqdm=4.*
+
