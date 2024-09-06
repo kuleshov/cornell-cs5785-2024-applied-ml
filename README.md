@@ -20,12 +20,21 @@ This repo is organized as follows.
 
 ### Requirements
 
-You should be able to run all the contents of this repo using the packages provided in `requirements.txt`.
+You should be able to run all the contents of this repo using the packages provided in `environment.yml`.
 
-In a new `virtualenv`, run this:
-```
-pip install -r requirements.txt
-```
+1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or Anaconda.
+
+1. Install main Python environment (allows to run most steps):
+
+   ```bash
+   conda env create --name course-cornell-cs5785 --file environment.yml
+   ```
+
+1. Activate the environment:
+
+    ```bash
+    conda activate course-cornell-cs5785
+    ```
 
 ## Feedback
 
