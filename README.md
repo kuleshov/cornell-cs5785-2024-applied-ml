@@ -18,9 +18,18 @@ This repo is organized as follows.
 
 ## Setup
 
-### Requirements
+There are packages that you need in your system and in your virtual environment to run the code in this repo.
 
-You should be able to run all the contents of this repo using the packages provided in `environment.yml`.
+System packages include Pandoc and Tex Live.
+For example, in Ubuntu, you can install them using:
+
+```bash
+sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-plain-generic
+```
+
+You also need to create a virtual environment with Python.
+Packages needed are provided in the `environment.yml` file.
+You can follow these instructions to create the virtual environment:
 
 1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or Anaconda.
 
