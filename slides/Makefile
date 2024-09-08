@@ -4,6 +4,7 @@ NOTEBOOKS:=$(wildcard *.ipynb)
 SLIDES:=$(subst ipynb,slides.html,$(NOTEBOOKS))
 HTML:=$(subst ipynb,html,$(NOTEBOOKS))
 PDFS:=$(subst ipynb,pdf,$(NOTEBOOKS))
+SPELLCHECKS:=$(subst ipynb,spellcheck.txt,$(NOTEBOOKS))
 
 $(SLIDES): %.slides.html: %.ipynb
 	jupyter nbconvert $< --to slides
@@ -12,10 +13,13 @@ $(SLIDES): %.slides.html: %.ipynb
 
 
 $(HTML): %.html: %.ipynb
-	jupyter nbconvert $< --to html_embed --reveal-prefix "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0"
+	jupyter nbconvert $< --to html_embed
 
 $(PDFS): %.pdf: %.ipynb
-	jupyter nbconvert $< --to pdf --reveal-prefix "http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0"
+	jupyter nbconvert $< --to pdf
+
+%.spellcheck.txt: %.ipynb
+	./extract-markdown.py $< | aspell --mode=tex list > $@
 
 notes:
 	make $(HTML)
@@ -26,8 +30,14 @@ slides:
 pdfs:
 	make $(PDFS)
 
+spellchecks:
+	make $(SPELLCHECKS)
+
+all-spellchecks.txt: spellchecks
+	tail -n 10000 $(SPELLCHECKS) > $@
+
 clean:
-	rm *.html *.pdf
+	rm -rf *.html *.pdf *spellcheck.txt *_files
 
 all:
 	make notes slides pdfs
