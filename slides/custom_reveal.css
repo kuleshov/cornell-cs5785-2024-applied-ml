@@ -1,0 +1,34 @@
+.reveal h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+:root {
+  --jp-code-font-size: 10px;
+  --jp-ui-font-size1: 10px;
+  --jp-cell-prompt-width: 100px;
+  --jp-code-padding: 0px;
+}
+
+.jp-InputPrompt {
+    flex: 0 0;
+}
+
+.jp-OutputPrompt {
+    flex: 0 0;
+}
+
+.reveal img {
+    margin: 0;
+}
+
+.reveal section.img_container {
+    margin: 0;
+    padding: 0;
+}
+.jp-RenderedImage img {
+    display: block;
+    margin: auto;
+    width: auto;
+    max-width: 70%;
+}
