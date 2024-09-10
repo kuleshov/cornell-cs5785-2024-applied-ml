@@ -31,8 +31,8 @@ please check back before the lectures as we will be updating the slides and PDFs
 | **9/18/2024** | [SL] [Naive Bayes. Bag of words](./slides/lecture06-naive-bayes.ipynb) |
 | **9/23/2024** | [SL] [Generative vs. discriminative methods](./slides/lecture07-gaussian-discriminant-analysis.ipynb) |
 | **9/25/2024** | Guest Lecture |
-| **9/30/2024** | [UL] [Introduction to Unsupervised Learning. K-Means](./slides/lecture09-unsupervised-learning.ipynb) |
-| **10/2/2024** | [UL] [Clustering. Gaussian mixture models, expectation-maximization](./slides/lecture08-clustering.ipynb) |
+| **9/30/2024** | [UL] [Introduction to Unsupervised Learning. K-Means](./slides/lecture08-unsupervised-learning.ipynb) |
+| **10/2/2024** | [UL] [Clustering. Gaussian mixture models, expectation-maximization](./slides/lecture09-clustering.ipynb) |
 | **10/7/2024** | [UL] [Dimensionality Reduction. PCA](./slides/lecture10-dimensionality-reduction.ipynb) |
 | **10/9/2024** | (UL) Visualization. PCA vs. TSNE |
 | **10/14/2024** | Fall Break - No class |
