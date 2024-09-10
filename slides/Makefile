@@ -29,7 +29,6 @@ reveal.js:
 $(SLIDES): %.slides.pdf: %.slides.html
 	decktape reveal $< $@
 
-
 $(HTML): %.html: %.ipynb
 	jupyter nbconvert $< --to html_embed
 
