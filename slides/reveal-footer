@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="custom_reveal.css">
+<script src="reveal.js/dist/reveal.js"></script>
+<script>
+Reveal.initialize({
+	width:800,
+	height:450,
+	controls: true,
+	progress: true,
+	center: true,
+	hash: true,
+});
+</script>
+</html>
