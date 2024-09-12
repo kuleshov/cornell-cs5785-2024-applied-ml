@@ -34,7 +34,7 @@ please check back before the lectures as we will be updating the slides and PDFs
 | **9/30/2024** | [UL] [Introduction to Unsupervised Learning. K-Means](./slides/lecture08-unsupervised-learning.ipynb) |
 | **10/2/2024** | [UL] [Clustering. Gaussian mixture models, expectation-maximization](./slides/lecture09-clustering.ipynb) |
 | **10/7/2024** | [UL] [Dimensionality Reduction. PCA](./slides/lecture10-dimensionality-reduction.ipynb) |
-| **10/9/2024** | (UL) Visualization. PCA vs. TSNE |
+| **10/9/2024** | [UL] Visualization. PCA vs. TSNE |
 | **10/14/2024** | Fall Break - No class |
 | **10/16/2024** | [SL] [SVMs. Margins, max-margin classifiers, hinge loss, optimization](./slides/lecture12-suppor-vector-machines.ipynb) |
 | **10/21/2024** | [SL] [Dual Formulation of SVMs. Lagrange duality, SVMs duals, SMO](./slides/lecture13-svm-dual.ipynb) |
@@ -43,8 +43,8 @@ please check back before the lectures as we will be updating the slides and PDFs
 | **10/30/2024** | Prelim In Class |
 | **11/4/2024** | [SL] [Neural Networks. Perceptrons, multi-layer neural networks](./slides/lecture16-neural-networks.ipynb) |
 | **11/6/2024** | [SL] [Deep Learning. Convolutional neural networks and applications](./slides/lecture17-deep-learning.ipynb) |
-| **11/11/2024** | (SL) Advanced Deep Learning. ResNets, RNNs |
-| **11/13/2024** | (SL) Advanced Deep Learning. Transformers/LLMs |
+| **11/11/2024** | [SL] Advanced Deep Learning. ResNets, RNNs |
+| **11/13/2024** | [SL] Advanced Deep Learning. Transformers/LLMs |
 | **11/18/2024** | [SL] [Decision Trees. Bagging, ensembling, CART](./slides/lecture20-decision-trees.ipynb) |
 | **11/20/2024** | [SL] [Boosting. Adaboost, gradient boosting](./slides/lecture21-boosting.ipynb) |
 | **11/25/2024** | Guest Lecture |
