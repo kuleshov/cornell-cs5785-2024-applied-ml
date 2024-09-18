@@ -28,7 +28,7 @@ please check back before the lectures as we will be updating the slides and PDFs
 | **9/9/2024** | [SL] [Regression. Linear Regression. OLS](./slides/lecture03-linear-regression.ipynb) |
 | **9/11/2024** | [SL] [Classification. Logistic Regression and Max Likelihood](./slides/lecture04-classification.ipynb) |
 | **9/16/2024** | [SL] [Why Does SL Work? Data distribution, over/under fitting, regularization](./slides/lecture05-regularization.ipynb) |
-| **9/18/2024** | [SL] [Generative Classifiers](./slides/lecture06-gaussian-discriminant-analysis.ipynb) |
+| **9/18/2024** | [SL] [Generative Classifiers and Gaussian Discriminant Analysis](./slides/lecture06-gaussian-discriminant-analysis.ipynb) |
 | **9/23/2024** | [SL] Naive Bayes, bag of words
 | **9/25/2024** | Guest Lecture |
 | **9/30/2024** | [UL] [Introduction to Unsupervised Learning. K-Means](./slides/lecture08-unsupervised-learning.ipynb) |
