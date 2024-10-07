@@ -29,8 +29,8 @@ please check back before the lectures as we will be updating the slides and PDFs
 | **9/11/2024** | [SL] [Classification. Logistic Regression and Max Likelihood](./slides/lecture04-classification.ipynb) |
 | **9/16/2024** | [SL] [Why Does SL Work? Data distribution, over/under fitting, regularization](./slides/lecture05-regularization.ipynb) |
 | **9/18/2024** | [SL] [Generative Classifiers and Gaussian Discriminant Analysis](./slides/lecture06-gaussian-discriminant-analysis.ipynb) |
-| **9/23/2024** | [SL] Naive Bayes, bag of words
-| **9/25/2024** | Guest Lecture |
+| **9/23/2024** | [SL] [Naive Bayes, bag of words](./slides/lecture07-naive-bayes.ipynb)
+| **9/25/2024** | Guest Lecture by [Guan-Horng Liu](https://ghliu.github.io/) |
 | **9/30/2024** | [UL] [Introduction to Unsupervised Learning. K-Means](./slides/lecture08-unsupervised-learning.ipynb) |
 | **10/2/2024** | [UL] [Clustering. Gaussian mixture models, expectation-maximization](./slides/lecture09-clustering.ipynb) |
 | **10/7/2024** | [UL] [Dimensionality Reduction. PCA](./slides/lecture10-dimensionality-reduction.ipynb) |
