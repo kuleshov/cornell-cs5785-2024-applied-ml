@@ -9,7 +9,8 @@ SPELLCHECKS:=$(subst ipynb,spellcheck.txt,$(NOTEBOOKS))
 
 $(SLIDES): %.slides.html: %.ipynb
 	jupyter nbconvert $< --to slides
-	sed 's/\(Reveal\.initialize({\)/\1width: 1400,height: 788,center: false,/' $@ > t.html
+	# sed 's/\(Reveal\.initialize({\)/\1width: 1400,height: 788,center: false,/' $@ > t.html
+	sed 's/\(Reveal\.initialize({\)/\1width: 1400,height: 788,center: false,navigationMode: "linear",/' $@ > t.html
 	mv t.html $@ # sed -i doesn't seem to work on my OSX version, doing this move instead
 
 # alternative slides via local reveal clone and decktape:
