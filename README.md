@@ -47,7 +47,7 @@ please check back before the lectures as we will be updating the slides and PDFs
 | **11/13/2024** | [SL] [Advanced Deep Learning. Transformers/LLMs](./slides/lecture19-llms.ipynb) |
 | **11/18/2024** | [SL] [Decision Trees. Bagging, ensembling, CART](./slides/lecture20-decision-trees.ipynb) |
 | **11/20/2024** | [SL] [Boosting. Adaboost, gradient boosting](./slides/lecture21-boosting.ipynb) |
-| **11/25/2024** | Guest Lecture |
+| **11/25/2024** | Guest Lecture by [Tom Sercu](https://tom.sercu.me/) |
 | **11/27/2024** | Thanksgiving Break - No class |
 | **12/2/2024** | Machine Learning: Diagnosis. Model iteration process, bias/variance tradeoff, baselines, learning curves |
 | **12/4/2024** | Applying Machine Learning: Diagnosis. Error analysis, data integrity, human-level performance |
