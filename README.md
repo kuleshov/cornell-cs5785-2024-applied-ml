@@ -43,11 +43,11 @@ please check back before the lectures as we will be updating the slides and PDFs
 | **10/30/2024** | Prelim In Class |
 | **11/4/2024** | [SL] [Neural Networks. Perceptrons, multi-layer neural networks](./slides/lecture16-neural-networks.ipynb) |
 | **11/6/2024** | [SL] [Deep Learning. Convolutional neural networks and applications](./slides/lecture17-deep-learning.ipynb) |
-| **11/11/2024** | [SL] Advanced Deep Learning. ResNets, RNNs |
-| **11/13/2024** | [SL] Advanced Deep Learning. Transformers/LLMs |
+| **11/11/2024** | [SL] [Advanced Deep Learning. ResNets, RNNs](https://drive.google.com/file/d/1mdW7-2Y63HVXVl6rr2m8XSOMpHlkjL6z/view?usp=drive_link) |
+| **11/13/2024** | [SL] [Advanced Deep Learning. Transformers/LLMs](./slides/lecture19-llms.ipynb) |
 | **11/18/2024** | [SL] [Decision Trees. Bagging, ensembling, CART](./slides/lecture20-decision-trees.ipynb) |
 | **11/20/2024** | [SL] [Boosting. Adaboost, gradient boosting](./slides/lecture21-boosting.ipynb) |
-| **11/25/2024** | Guest Lecture |
+| **11/25/2024** | Guest Lecture by [Tom Sercu](https://tom.sercu.me/) |
 | **11/27/2024** | Thanksgiving Break - No class |
 | **12/2/2024** | Machine Learning: Diagnosis. Model iteration process, bias/variance tradeoff, baselines, learning curves |
 | **12/4/2024** | Applying Machine Learning: Diagnosis. Error analysis, data integrity, human-level performance |
