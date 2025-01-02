@@ -55,14 +55,32 @@ please check back before the lectures as we will be updating the slides and PDFs
 
 ## Setup
 
-### Requirements
+There are packages that you need in your system and in your virtual environment to run the code in this repo.
 
-You should be able to run all the contents of this repo using the packages provided in `requirements.txt`.
+System packages include Pandoc and Tex Live.
+For example, in Ubuntu, you can install them using:
 
-In a new `virtualenv`, run this:
+```bash
+sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-plain-generic
 ```
-pip install -r requirements.txt
-```
+
+You also need to create a virtual environment with Python.
+Packages needed are provided in the `environment.yml` file.
+You can follow these instructions to create the virtual environment:
+
+1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or Anaconda.
+
+1. Install main Python environment (allows to run most steps):
+
+   ```bash
+   conda env create --name course-cornell-cs5785 --file environment.yml
+   ```
+
+1. Activate the environment:
+
+    ```bash
+    conda activate course-cornell-cs5785
+    ```
 
 ## Feedback
 
